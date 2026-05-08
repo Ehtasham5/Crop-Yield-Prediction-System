@@ -1,0 +1,38 @@
+{
+  "r2_score": 0.9800718049654412,
+  "mean_absolute_error": 4.3100889749999975,
+  "root_mean_squared_error": 5.364341049861225,
+  "feature_columns": [
+    "Crop",
+    "Region",
+    "Soil_Type",
+    "Soil_pH",
+    "Rainfall_mm",
+    "Temperature_C",
+    "Humidity_pct",
+    "Fertilizer_Used_kg",
+    "Irrigation",
+    "Pesticides_Used_kg",
+    "Planting_Density",
+    "Previous_Crop"
+  ],
+  "numeric_features": [
+    "Soil_pH",
+    "Rainfall_mm",
+    "Temperature_C",
+    "Humidity_pct",
+    "Fertilizer_Used_kg",
+    "Pesticides_Used_kg",
+    "Planting_Density"
+  ],
+  "categorical_features": [
+    "Crop",
+    "Region",
+    "Soil_Type",
+    "Irrigation",
+    "Previous_Crop"
+  ],
+  "target_column": "Yield_ton_per_ha",
+  "train_rows": 8000,
+  "test_rows": 2000
+}
